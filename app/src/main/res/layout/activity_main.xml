@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/aabbcc"
+    android:orientation="vertical"
+    android:padding="3dp"
+    android:background="@color/colorbackground"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:paddingBottom="10dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aaaaa"
+
+        android:text="HERBAL EDUCATOR"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:paddingTop="100dp"
+      />
+
+</RelativeLayout>
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+
+        app:srcCompat="@drawable/herbalicon1" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="17dp"
+    android:padding="20dp"
+    android:gravity="center"
+    android:textAlignment="center"
+    android:textColor="@color/colorPrimaryDark"
+    android:text="Know how to prepare,prescribe and identify the righ herb using this app"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:orientation="vertical"
+        android:padding="3dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#ffffff"
+            android:text="Herbal User"
+
+            android:onClick="btnUserclick"
+            android:id="@+id/button_herbaluser"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:padding="3dp"
+            android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#ffffff"
+            android:text="Herbal Expert"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>

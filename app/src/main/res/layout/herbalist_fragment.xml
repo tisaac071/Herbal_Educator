@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/colorbackground"
+    >
+
+   <!--<android.support.v7.widget.SearchView
+        android:id="@+id/mSearch"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        defaultQueryHint="search..">
+    </android.support.v7.widget.SearchView> -->
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/RecyClerView"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>
